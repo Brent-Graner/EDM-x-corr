@@ -1,0 +1,158 @@
+Run Number:            none     0
+Time:                  minutes  0
+Omega 1A:              rad/sec  0
+Omega 2A:              rad/sec  0
+Omega 3A:              rad/sec  0
+Omega 4A:              rad/sec  0
+Rel Time 1A:           sec      0
+Rel Time 2A:           sec      0
+Rel Time 3A:           sec      0
+Rel Time 4A:           sec      0
+Amplitude 1A:          V        0
+Amplitude 2A:          V        0
+Amplitude 3A:          V        0
+Amplitude 4A:          V        0
+Transmission 1A:       V        0
+Transmission 2A:       V        0
+Transmission 3A:       V        0
+Transmission 4A:       V        0
+Midtime A:             V        0
+Pump Points:           none     0
+ShutterCloseA:         sec      0
+dphi12A:               rad      0
+dphi13A:               rad      0
+dphi14A:               rad      0
+dphi23A:               rad      0
+dphi24A:               rad      0
+dphi34A:               rad      0
+Combo A:               rad      0
+Combo(2) A:            rad      0
+Leak Test A:           rad      0
+MT-(MB+OT)/2 A:        rad      0
+(MT+OB)/2-MB A:        rad      0
+Omega 1B:              rad/sec  0
+Omega 2B:              rad/sec  0
+Omega 3B:              rad/sec  0
+Omega 4B:              rad/sec  0
+Rel Time 1B:           sec      0
+Rel Time 2B:           sec      0
+Rel Time 3B:           sec      0
+Rel Time 4B:           sec      0
+Amplitude 1B:          V        0
+Amplitude 2B:          V        0
+Amplitude 3B:          V        0
+Amplitude 4B:          V        0
+Transmission 1B:       V        0
+Transmission 2B:       V        0
+Transmission 3B:       V        0
+Transmission 4B:       V        0
+Midtime B:             V        0
+ShutterOpenB:          sec      0
+dphi12B:               rad      0
+dphi13B:               rad      0
+dphi14B:               rad      0
+dphi23B:               rad      0
+dphi24B:               rad      0
+dphi34B:               rad      0
+Combo B:               rad      0
+Combo(2) B:            rad      0
+Leak Test B:           rad      0
+MT-(MB+OT)/2 B:        rad      0
+(MT+OB)/2-MB B:        rad      0
+TdiffDw12:             rad/s    0
+TdiffDw13:             rad/s    0
+TdiffDw14:             rad/s    0
+TdiffDw23:             rad/s    0
+TdiffDw24:             rad/s    0
+TdiffDw34:             rad/s    0
+INT PD:                V        1
+Ref Cell PD:           V        1            
+B_x:                   mGauss   1
+B_y:                   mGauss   1
+B_z:                   mGauss   1
+Fluxgate:              mGauss   1
+vert:                  V        1
+hor:                   V        1
+green piezo:           V        1
+#tot:                  V        1
+lock:                  V        1
+Slab Temp:             V        1
+Table Temp:            V        1
+Air Temp:              V        1
+uv piezo:              V        1
+Diode I:               V        1
+#GPIB:                  mA       1
+Grad Coil1:            V       -1
+Grad Coil2:            V       -1
+Grad Coil3:            V       -1
+Main Coil:             V       -1
+dBy/dx Coil:           V       -1
+Charge IT:             20*nA    6
+Charge IB:             20*nA    6
+Charge OT:             20*nA    6
+Charge OB:             20*nA    6
+Charge Vessel:         20*nA    6
+Leakage IT:            100*pA   2
+Leakage IB:            100*pA   2
+Leakage OT:            100*pA   2
+Leakage OB:            100*pA   2
+Leak Vessel:           100*pA   2
+High Voltage:          kV       2
+Leak Cable:            100*pA   2
+Omega Ave A:           rad/s    5    w; .25 .25 .25 .25;
+OmegaMT-OmegaMB A:     rad/s    5    w;  1 -1  0  0;
+OmegaOT-OmegaOB A:     rad/s    5    w;  0  0  1 -1;
+#OmegaOT-OmegaMT:      rad/s    5    w; -1  0  1  0;
+#OmegaMB-OmegaOB:      rad/s    5    w;  0  1  0 -1;
+#OmegaOT-OmegaMB:      rad/s    5    w;  0 -1  1  0;
+#OmegaMT-OmegaOB:      rad/s    5    w;  1  0  0 -1;
+Combo Light On A:      rad/s    5    w;  1 -1  -0.333 0.333; 
+LeakTest A:            rad/s    5    w; -1 -1  1  1;
+Omega Ave B:           rad/s    5    x; .25 .25 .25 .25;
+OmegaMT-OmegaMB B:     rad/s    5    x;  1 -1  0  0;
+OmegaOT-OmegaOB B:     rad/s    5    x;  0  0  1 -1;
+Combo Light On B:      rad/s    5    x;  1 -1  -0.333 0.333; 
+LeakTest B:            rad/s    5    x; -1 -1  1  1;
+Omega MT A-B:          rad/s    5    y;  1  0  0  0;
+Omega MB A-B:          rad/s    5    y;  0  1  0  0;
+Omega OT A-B:          rad/s    5    y;  0  0  1  0;
+Omega OB A-B:          rad/s    5    y;  0  0  0  1;
+Omega Ave A-B:         rad/s    5    y; .25 .25 .25 .25;
+Omega MT-MB A-B:       rad/s    5    y;  1 -1  0  0;
+Omega OT-OB A-B:       rad/s    5    y;  0  0  1 -1;
+Combo A-B:             rad/s    5    y;  1 -1  -0.333 0.333; 
+LeakTest A-B:          rad/s    5    y; -1 -1  1  1;
+#wOT - wAve:           rad/s    5    w; -.25 -.25 .75 -.25; 
+#wMT - wAve:           rad/s    5    w; .75 -.25 -.25 -.25;
+#wMB - wAve:           rad/s    5    w; -.25 .75 -.25 -.25;
+#wOB - wAve:           rad/s    5    w; -.25 -.25 -.25 .75;
+PhaseMT - PhaseMB:     rad      5    p;   1  0  0  0  0  0;
+PhaseMT - PhaseOT:     rad      5    p;   0  1  0  0  0  0;
+PhaseMT - PhaseOB:     rad      5    p;   0  0  1  0  0  0;
+PhaseMB - PhaseOT:     rad      5    p;   0  0  0  1  0  0;
+PhaseMB - PhaseOB:     rad      5    p;   0  0  0  0  1  0;
+PhaseOT - PhaseOB:     rad      5    p;   0  0  0  0  0  1;
+Phase Combo:           rad      5    p;   1  0  0  0  0 -0.333;
+Fit Var. Combo:        rad      5    t;
+Phase Combo (2):       rad      5    p;   0.666  0.333  0  0  -0.333  0;
+Phase LeakTest:        rad      5    p;   0 -1  0  0 -1  0;
+Phase MT-(MB+OT)/2:    rad      5    p;   0.5 .5  0  0  0  0;
+Phase (MT+OB)/2-MB:    rad      5    p;   0.5  0  0  0 -.5  0;
+Phase 3-cell MT:       rad      5    p;   0 0.666 0.333 0 0 0;
+Phase 3-cell MB:       rad      5    p;   0 0 0 -0.333 -0.666 0;
+Cell separations:      rad      5    p;   0 0.5 -0.5 0.5 -0.5 0;
+Middle cell noise:     rad      5    p;   1 -0.5 0.5 -0.5 0.5 0;
+In/Out relative:       rad      5    p;   0 0.75 -0.75 0.75 -0.75 0.5;
+X-pointing noise:      rad      5    p;   0 0.5 0.5 0.5 0.5 -1;
+Product Fit Combo:     rad/s    5    s;  
+Trans. MT/MB:          none     5    u;   1 -1  0  0;
+Trans. OT/OB:          none     5    u;   0  0  1 -1;
+Trans. Top/Bottom:     none     5    u;   1 -1  1 -1;
+Trans. In/Out:         none     5    u;   1  1 -1 -1;
+Tdiff Combo:           rad/s    5    v;   1  0  0  0  0 -0.333;
+Tdiff Var. Combo:      rad/s    5    z;
+Tdiff LeakTest:        rad/s    5    v;   0 -1  0  0 -1  0;
+Tdiff MT-(MB+OT)/2:    rad/s    5    v;   0.5 .5  0  0  0  0;
+Tdiff (MT+OB)/2-MB:    rad/s    5    v;   0.5  0  0  0 -.5  0;
+Tdiff 3-cell MT:       rad/s    5    v;   0 0.666 0.333 0 0 0;
+Tdiff 3-cell MB:       rad/s    5    v;   0 0 0 -0.333 -0.666 0;
